@@ -17,12 +17,12 @@ Step by Step explanation of various algorithms </br>
 ## Screenshots
 <div style="display:flex;" >
 <img  src="Screenshoots/Screenshoot1.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshoot2.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot3.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot4.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot5.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot6.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot7.png" width="19%" >
-<img style="margin-left:10px;" src="Screenshoots/Screenshot8.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshoot2.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot3.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot4.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot5.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot6.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot7.png" width="19%" >
+<img style="margin-left:20px;" src="Screenshoots/Screenshot8.png" width="19%" >
 
 </div>
