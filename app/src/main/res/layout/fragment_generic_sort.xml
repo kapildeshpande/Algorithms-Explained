@@ -1,0 +1,258 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Sorting.GenericSortFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp">
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                app:rowCount="1"
+                app:columnCount="6"
+                app:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/linear_layout">
+
+                <TextView
+                    android:id="@+id/zero"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/one"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="1"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    app:layout_row="0"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/two"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="2"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    app:layout_row="0"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/three"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="3"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    app:layout_row="0"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/four"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="4"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    app:layout_row="0"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    app:layout_column="5"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    app:layout_row="0"
+                    android:background="@drawable/black_background_surround"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </android.support.v7.widget.GridLayout>
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignTop="@id/linear_layout"
+                android:layout_marginTop="30dp"
+                android:id="@+id/linear_layout2">
+
+                <TextView
+                    android:id="@+id/zero_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text=""/>
+
+                <TextView
+                    android:id="@+id/one_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="1"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/two_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="2"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/three_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="3"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/four_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="4"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/five_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    app:layout_row="0"
+                    app:layout_column="5"
+                    app:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.GridLayout>
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linear_layout2"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/black_background_surround"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_row="1"
+                    app:layout_column="0"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/linear_layout3">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="Start" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="Prev" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reset" />
+
+                </LinearLayout>
+            </android.support.v7.widget.GridLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

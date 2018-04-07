@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Algorithms Explained</string>
+    <string name="selection_sort">
+        Selection Sort\n\nIn this algorithm every time minimum element is selected from unsorted part and swaps with the leftmost element of unsorted part
+    </string>
+
+    <string name="bubble_sort">
+        Bubble Sort\n\nIn this algorithm we scan array n-1 times and at every scan we check every adjacent element, if current element is greater than its adjacent element than we swaps both
+    </string>
+    <string name="insertion_sort">
+        Insertion Sort\n\nIn this algorithm we divide array into 2 parts sorted and unsorted, every time we a pick element from unsorted part and insert it in its appropriate position in sorted part
+    </string>
+    <string name="merge_sort">
+        Merge Sort\n\nIn this algorithm we recursively divide array into 2 parts now we sort each individual part and than merge them to original array
+    </string>
+    <string name="heap_sort">
+        Heap Sort\n\nIn this algorithm every time we find maximum element using heap data structure and swap it with last element of unsorted part
+    </string>
+    <string name="line">\</string>
+</resources>
