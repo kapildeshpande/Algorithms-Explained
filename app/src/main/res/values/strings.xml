@@ -17,4 +17,10 @@
         Heap Sort\n\nIn this algorithm every time we find maximum element using heap data structure and swap it with last element of unsorted part
     </string>
     <string name="line">\</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
 </resources>

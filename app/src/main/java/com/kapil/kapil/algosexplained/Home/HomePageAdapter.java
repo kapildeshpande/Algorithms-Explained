@@ -51,8 +51,8 @@ public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.ItemVi
     }
 
     @Override
-    public void onBindViewHolder(ItemViewHolder holder,final int position) {
-
+    public void onBindViewHolder(ItemViewHolder holder,final int pos) {
+        final int position = holder.getAdapterPosition();
         if (holder.viewType == 1) {
             holder.sortName.setText(arrayList.get(position-1));
             holder.sortName.setOnClickListener(new View.OnClickListener() {

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlgosExplained.iml" filepath="$PROJECT_DIR$/AlgosExplained.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithms-Explained-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithms-Explained-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Algorithms-Explained-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Algorithms-Explained-master.app.iml" />
     </modules>
   </component>
 </project>
