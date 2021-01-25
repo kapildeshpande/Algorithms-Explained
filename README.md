@@ -24,5 +24,9 @@ Step by Step explanation of various algorithms </br>
 <img style="margin-left:100px;" src="Screenshoots/Screenshot6.png" width="19%" >
 <img style="margin-left:100px;" src="Screenshoots/Screenshot7.png" width="19%" >
 <img style="margin-left:100px;" src="Screenshoots/Screenshot8.png" width="19%" >
+<img style="margin-left:100px;" src="Screenshoots/Screenshot9.png" width="19%" >
+<img style="margin-left:100px;" src="Screenshoots/Screenshot10.png" width="19%" >
+<img style="margin-left:100px;" src="Screenshoots/Screenshot11.png" width="19%" >
+<img style="margin-left:100px;" src="Screenshoots/Screenshot12.png" width="19%" >
 
 </div>
